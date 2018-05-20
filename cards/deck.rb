@@ -29,3 +29,18 @@ Squib::Deck.new cards: materials_data['title'].size,
 
   save_png prefix: 'material'
 end
+
+#events
+events_data = Squib.csv file: 'events-data.csv'
+
+Squib::Deck.new cards: events_data['title'].size, 
+      width: '2.5 in', height: '3.5 in', 
+      layout: 'events-layout.yml' do
+        
+  background color: 'white'
+
+  text str: events_data['title'], layout: 'title'
+  text str: events_data['description'], layout: 'description'
+
+  save_png prefix: 'event'
+end
