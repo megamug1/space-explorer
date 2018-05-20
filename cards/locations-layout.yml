@@ -1,6 +1,6 @@
 title:
   width: 3.5 in
-  y: 250
+  y: 300
   font: guardians, 80
   align: center
   color: '#333333'
@@ -8,6 +8,6 @@ title:
 description:
   width: 3.5 in
   y: 400
-  font: guardians, 20
+  font: guardians, 35
   align: center
   color: '#555555'

@@ -1,0 +1,15 @@
+
+
+title:
+  width: 2.5 in
+  font: guardians, 160
+  align: center
+  y: 360
+  color: '#333333'
+
+description:
+  width: 2.5 in
+  y: 560
+  font: guardians, 30
+  align: center
+  color: '#555555'
